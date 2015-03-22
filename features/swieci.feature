@@ -1,6 +1,7 @@
 Feature: Web pages
 
-  Scenario: Wszyscy swieci
-    Given I am on "swieci.html"
-    Then I should see "Wszyscy swieci"
+  Scenario: Perfect
+    Given I am on homepage
+    When I follow "swieci"
+     Then I should see "I was fine right before I met her"
     
