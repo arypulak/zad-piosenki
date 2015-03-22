@@ -542,4 +542,13 @@ public function  SenowarszawieAction()
     {
         return $this->render('default/na-co-komu.html.twig');
     }
+    
+    
+    /**
+     * @Route("/swieci.html", name="Swieci")
+     */
+    public function swieciAction() {
+        return $this->render('default/swieci.html.twig');
+    }
+
 }
